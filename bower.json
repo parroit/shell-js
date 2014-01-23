@@ -1,0 +1,19 @@
+{
+  "name": "shell.js",
+  "version": "0.0.0",
+  "authors": [
+    "Andrea Parodi <andrea.parodi@ebansoftware.net>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "eventEmitter": "~4.2.7"
+  }
+}
