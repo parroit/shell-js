@@ -37,6 +37,7 @@
   },
   "keywords": [],
   "dependencies": {
-    "tokenizer": "~1.1.2"
+    "tokenizer": "~1.1.2",
+    "ansispan": "0.0.4"
   }
 }
