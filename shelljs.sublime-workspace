@@ -531,7 +531,7 @@
 			"file": "lib/ansi2html.js",
 			"settings":
 			{
-				"buffer_size": 8111,
+				"buffer_size": 8347,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "lib/shell-controller.js",
 			"settings":
 			{
-				"buffer_size": 1316,
+				"buffer_size": 1309,
 				"line_ending": "Windows"
 			}
 		},
@@ -856,6 +856,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"escape",
+			"onLiteral",
+			"write",
+			"parse",
+			"emitRow",
+			"this.row",
+			"onComplete",
 			"</span>",
 			"<span>",
 			"this.column",
@@ -976,14 +983,7 @@
 			"pollIntervalSeconds: 10",
 			"pollIntervalSeconds",
 			"Fowler",
-			"throws",
-			"callAlarmList",
-			"readAlarmList",
-			"callAlarmList",
-			"pageSize",
-			"fromTimer",
-			"timeFilters",
-			"readAlarmList"
+			"throws"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1102,7 +1102,7 @@
 						"translation.y": 576.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1111,15 +1111,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8111,
+						"buffer_size": 8347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7935,
-								7935
+								3654,
+								3654
 							]
 						],
 						"settings":
@@ -1128,10 +1128,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 13280.0,
+						"translation.y": 7133.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1140,15 +1140,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1316,
+						"buffer_size": 1309,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								890,
-								890
+								678,
+								678
 							]
 						],
 						"settings":
@@ -1157,7 +1157,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 576.0,
+						"translation.y": 768.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

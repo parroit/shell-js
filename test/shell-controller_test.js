@@ -33,7 +33,7 @@ describe("ShellController", function() {
 
 		it("write commands output to view", function() {
 			var expected = 
-				"<span style='color:rgba(170,170,170,255)'>1.txt<br>2.txt</span><br><br>";
+				" <span style=\'color:rgba(170,170,170,255)\'>1.txt<br> 2.txt<br><br><br></span>";
 
 			expect(testView.content).to.be.equal(expected);
 		});
