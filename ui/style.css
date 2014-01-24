@@ -4,6 +4,10 @@ body {
 	background: #333;
 	font-family: 'Inconsolata', sans-serif;
 	font-size: 14pt;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding: 5px;
+	margin: 0;
 }
 
 #stdin:focus {
@@ -14,7 +18,8 @@ body {
 #stdin,#stdout {
 	color: #eee;
 }
-#stdin,#stdout,body { 
+#stdin,#stdout {
+	width: 120em; 
 	padding: 0;
 	margin: 0;
 }
