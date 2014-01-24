@@ -4,16 +4,16 @@
 		"selected_items":
 		[
 			[
-				"row",
-				"rows"
+				"charc",
+				"charcode"
 			],
 			[
-				"call",
-				"callback"
+				"ex",
+				"executable"
 			],
 			[
-				"s",
-				"stdin"
+				"toke",
+				"token"
 			],
 			[
 				"th",
@@ -254,6 +254,10 @@
 			[
 				"new",
 				"newTimeStamp"
+			],
+			[
+				"call",
+				"callHandlers"
 			],
 			[
 				"serv",
@@ -510,52 +514,40 @@
 			[
 				"c",
 				"checkAlarms"
-			],
-			[
-				"choose",
-				"choosenAreas"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "ui/index.js",
+			"file": "lib/external-command-runner.js",
 			"settings":
 			{
-				"buffer_size": 882,
+				"buffer_size": 870,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/ansi2html.js",
+			"file": "lib/console-stdin.js",
 			"settings":
 			{
-				"buffer_size": 8347,
-				"line_ending": "Windows"
+				"buffer_size": 292,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "lib/shell-controller.js",
 			"settings":
 			{
-				"buffer_size": 1309,
+				"buffer_size": 1594,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "test/shell-controller_test.js",
+			"file": "ui/index.js",
 			"settings":
 			{
-				"buffer_size": 1217,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "ui/style.css",
-			"settings":
-			{
-				"buffer_size": 363,
+				"buffer_size": 1359,
 				"line_ending": "Windows"
 			}
 		}
@@ -663,15 +655,19 @@
 	},
 	"file_history":
 	[
-		"/C/src/shell-js/lib/ansi2html.js",
-		"/C/src/shell-js/test/shell-controller_test.js",
-		"/C/src/shell-js/test/command-parser_test.js",
-		"/C/src/shell-js/lib/command-parser.js",
-		"/C/src/shell-js/lib/shell-controller.js",
-		"/C/src/shell-js/test/ansi2html.js",
-		"/C/src/shell-js/node_modules/ansispan/lib/ansispan.js",
-		"/C/src/shell-js/test/files/1.txt",
-		"/C/src/shell-js/test/files/2.txt",
+		"/media/parroit/Elements/src/shell-js/ui/index.js",
+		"/media/parroit/Elements/src/shell-js/lib/ansi2html.js",
+		"/media/parroit/Elements/src/shell-js/test/shell-controller_test.js",
+		"/media/parroit/Elements/src/shell-js/lib/shell-controller.js",
+		"/media/parroit/Elements/src/shell-js/lib/command-parser.js",
+		"/media/parroit/Elements/src/shell-js/node_modules/grunt/node_modules/colors/colors.js",
+		"/media/parroit/Elements/src/shell-js/node_modules/grunt/node_modules/colors/ReadMe.md",
+		"/media/parroit/Elements/src/shell-js/ui/index.html",
+		"/media/parroit/Elements/src/shell-js/test/command-parser_test.js",
+		"/media/parroit/Elements/src/shell-js/.gitignore",
+		"/home/parroit/Scrivania/index.html",
+		"/media/parroit/Elements/src/shell-js/Gruntfile.js",
+		"/media/parroit/Elements/src/shell-js/node_modules/tokenizer/lib/Tokenizer.js",
 		"/media/parroit/Elements/src/shell.js/bower.json",
 		"/media/parroit/Elements/src/shell.js/README.md",
 		"/media/parroit/Elements/src/shell.js/Gruntfile.js",
@@ -786,21 +782,18 @@
 		"/C/Documents and Settings/parroit/Desktop/nuovo allarme",
 		"/C/selex/SSIMobileFase1/js/StoricoAllarmiView.js",
 		"/C/Documents and Settings/parroit/Desktop/wireless_admin_user.txt",
-		"/C/src/ngoose/lib/ngoose.js",
-		"/C/src/ngoose/test/ngoose_test.js",
-		"/C/selex/SSIMobileFase1/allarme-details.html",
-		"/C/selex/ssimobilefase1/js/StartView.js",
-		"/C/selex/SSIMobileFase1/allarmi.html"
+		"/C/src/ngoose/lib/ngoose.js"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 200.0,
 		"where_history":
 		[
+			"/media/parroit/Elements/src/shell-js,-node_modules/**/*,-bower*/**/*",
 			"C:\\selex\\jboss\\server\\default\\deploy\\HMCSMonitor.war\\js",
 			"C:\\selex\\ssimobilefase1\\",
 			"C:\\selex\\ssimobilefase1\\js",
@@ -856,49 +849,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"escape",
+			"'",
+			"console.",
+			"'",
+			"stripColors",
+			"renderChar",
 			"onLiteral",
-			"write",
-			"parse",
-			"emitRow",
-			"this.row",
-			"onComplete",
-			"</span>",
-			"<span>",
-			"this.column",
-			"this.row",
-			"rows[this.row",
-			"<br>",
-			".buffer",
-			"renderChar",
-			"x",
-			"renderChar",
-			"escapes.Cursor",
-			"escapes",
-			"onescape",
-			"escapes",
-			"$(\"#stdin\")",
-			"stdin",
-			"new Cursor",
-			"options",
-			";",
-			"image_data",
-			"global",
-			"lastforeground",
-			"stupidCopy",
-			"anvas",
-			"parse",
-			"escapes",
-			"trimCanvas",
+			"parseIntArray",
+			"isDeferred",
+			"_tokenize",
+			"end",
+			"_getMatchingRule",
 			"'",
-			"this.context",
-			"this.canvas",
-			"Canvas",
-			"font",
-			"httpGet",
-			"'",
-			"escapes",
-			"global",
 			"t.",
 			"'",
 			"EventEmitter",
@@ -983,7 +945,38 @@
 			"pollIntervalSeconds: 10",
 			"pollIntervalSeconds",
 			"Fowler",
-			"throws"
+			"throws",
+			"callAlarmList",
+			"readAlarmList",
+			"callAlarmList",
+			"pageSize",
+			"fromTimer",
+			"timeFilters",
+			"readAlarmList",
+			"page",
+			"dayPrev_onclick",
+			"td",
+			"tr",
+			"table",
+			"search-btn",
+			"date-prev",
+			".header",
+			"row",
+			".hea",
+			".col-(.)",
+			"416px",
+			"x = null;",
+			"delete x.onreadystatechange;",
+			"renderLineaDetails",
+			"col10",
+			"28px",
+			"ul.mac",
+			"ul.max",
+			",",
+			"32px",
+			"Fowler",
+			"moduleFowler",
+			"a class=\"btn\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -991,7 +984,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"\"",
 			"%20",
 			"+",
 			"\\t",
@@ -1078,19 +1070,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "ui/index.js",
+					"file": "lib/external-command-runner.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 882,
+						"buffer_size": 870,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								386,
+								386
 							]
 						],
 						"settings":
@@ -1099,39 +1091,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 576.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "lib/ansi2html.js",
+					"file": "lib/console-stdin.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8347,
+						"buffer_size": 292,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3654,
-								3654
+								252,
+								252
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7133.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1140,15 +1132,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1309,
+						"buffer_size": 1594,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								678,
-								678
+								1117,
+								1117
 							]
 						],
 						"settings":
@@ -1157,7 +1149,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 768.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1165,19 +1157,19 @@
 				},
 				{
 					"buffer": 3,
-					"file": "test/shell-controller_test.js",
+					"file": "ui/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1217,
+						"buffer_size": 1359,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								816,
-								816
+								1127,
+								1127
 							]
 						],
 						"settings":
@@ -1185,40 +1177,11 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 27.0,
-						"translation.y": 768.0,
+						"translation.x": -0.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "ui/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 363,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1284,7 +1247,7 @@
 		[
 			[
 				"",
-				"C:\\selex\\rho-mobile\\rho-mobile.sublime-project"
+				"C:\\selex\\rho-mobile\\ssi-fase2\\ssi-mobile.sublime-project"
 			]
 		],
 		"width": 380.0

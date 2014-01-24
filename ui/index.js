@@ -6,7 +6,7 @@
 				//var count = 0;
 				//console.log("write view:", text.replace(/\<br\>/g,function(){count++;return "<br>"}));
 				//console.log("total br:"+count)
-				$("#stdout").append(text);	
+				$("#stdout").append(text);
 			}
 		},
 
@@ -14,35 +14,50 @@
 		ShellController = require("../lib/shell-controller"),
 		controller = new ShellController(view),
 
-		stdin = $("#stdin");
+		stdin = $("#stdin"),
+		stdout = $("#stdout");
 
-
-	
 
 	stdin
 		.keyup(function(e) {
 			if (e.keyCode == 13) {
 				var command = stdin.text();
-				view.write(command+"<br>");
+				view.write(command + "<br>");
 				stdin.html("");
-				
+
+
 				if (command.trim() !== "") {
-					view.events.emit("command",command);	
+					stdin.removeAttr("contenteditable");
+
+					controller.events.on("commandExecuted", function() {
+						stdin.attr("contenteditable", "");
+						stdout.removeAttr("contenteditable");
+						stdout.off("keyup");
+						stdin.focus();
+					});
+
+					controller.events.on("inputRequested",function(){
+						stdout.attr("contenteditable", "");
+						stdout.keyup(function(e) {
+							controller.sendInput(String.fromCharCode(e.keyCode));
+						});
+						stdout.focus();
+					})
+
+					view.events.emit("command", command);
 				}
-				
-				
+
+
 			}
 		})
 
-		.blur(function(e) {
-			process.nextTick(function(){
-				stdin.focus();	
-			});
-			
-			e.preventDefault();
+	.blur(function(e) {
+		process.nextTick(function() {
+			stdin.focus();
 		});
 
-
+		e.preventDefault();
+	});
 
 
 
