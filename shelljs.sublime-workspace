@@ -523,7 +523,7 @@
 			"file": "test/command-parser_test.js",
 			"settings":
 			{
-				"buffer_size": 636,
+				"buffer_size": 983,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,7 +531,31 @@
 			"file": "lib/command-parser.js",
 			"settings":
 			{
-				"buffer_size": 689,
+				"buffer_size": 1605,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/shell-controller_test.js",
+			"settings":
+			{
+				"buffer_size": 1157,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/ansi2html.js",
+			"settings":
+			{
+				"buffer_size": 7355,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/shell-controller.js",
+			"settings":
+			{
+				"buffer_size": 1090,
 				"line_ending": "Windows"
 			}
 		}
@@ -639,6 +663,10 @@
 	},
 	"file_history":
 	[
+		"/C/src/shell-js/test/ansi2html.js",
+		"/C/src/shell-js/node_modules/ansispan/lib/ansispan.js",
+		"/C/src/shell-js/test/files/1.txt",
+		"/C/src/shell-js/test/files/2.txt",
 		"/media/parroit/Elements/src/shell.js/bower.json",
 		"/media/parroit/Elements/src/shell.js/README.md",
 		"/media/parroit/Elements/src/shell.js/Gruntfile.js",
@@ -762,11 +790,7 @@
 		"/C/selex/ssimobilefase1/js/controller.js",
 		"/C/src/ngoose/package.json",
 		"/C/src/StreamShell/test/test.js",
-		"/C/src/string-template/test/index.js",
-		"/C/src/aweforms/test/test_aweforms.js",
-		"/C/src/ngoose/node_modules/lodash/package.json",
-		"/C/src/lounge/lounge.js",
-		"/C/src/lounge/node_modules/git-node/git.js"
+		"/C/src/string-template/test/index.js"
 	],
 	"find":
 	{
@@ -832,6 +856,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lastforeground",
+			"stupidCopy",
+			"anvas",
+			"parse",
+			"escapes",
+			"trimCanvas",
+			"'",
+			"this.context",
+			"this.canvas",
+			"Canvas",
+			"font",
+			"httpGet",
+			"'",
+			"escapes",
+			"global",
 			"t.",
 			"'",
 			"EventEmitter",
@@ -944,22 +983,7 @@
 			"ul.mac",
 			"ul.max",
 			",",
-			"32px",
-			"Fowler",
-			"moduleFowler",
-			"a class=\"btn\"",
-			"16px",
-			"wirelessStatus",
-			"clearTimeout",
-			"alert",
-			"onSuccess",
-			"onSistemaChanged",
-			"tableDetailHolder",
-			"tableDetail",
-			"tableDetailHolder",
-			"html.push(\"",
-			"AllarmiController",
-			"list"
+			"32px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -967,6 +991,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"",
 			"%20",
 			"+",
 			"\\t",
@@ -1048,7 +1073,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1057,15 +1082,103 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 636,
+						"buffer_size": 983,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								485,
-								485
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/command-parser.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1505,
+								1505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/shell-controller_test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 576.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/ansi2html.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
 							]
 						],
 						"settings":
@@ -1081,29 +1194,29 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "lib/command-parser.js",
+					"buffer": 4,
+					"file": "lib/shell-controller.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 689,
+						"buffer_size": 1090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								77,
-								77
+								886,
+								886
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 576.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1191,7 +1304,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 208.0,
 	"status_bar_visible": true,
 	"template_settings":

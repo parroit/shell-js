@@ -25,15 +25,16 @@ describe("ShellController", function() {
 	describe("on command event", function() {
 		before(function(done) {
 			ctrl.events.on("commandExecuted", done);
-			testView.invokeCommand("ls");
+			testView.invokeCommand("ls test/files --color");
 		});
 		after(function() {
 			testView.reset();
 		});
 
 		it("write commands output to view", function() {
-			var expected = "Gruntfile.js\nLICENSE-MIT\nREADME.md\nbower.json\nbower_components\nlib\nnode-webkit-v0.8.0-rc1-win-ia32\nnode_modules\npackage.json\nshell.sublime-workspace\nshelljs.sublime-project\nshelljs.sublime-workspace\ntest\nui\n";
-			
+			var expected = 
+				"<span>1.txt<br>2.txt</span>";
+
 			expect(testView.content).to.be.equal(expected);
 		});
 	});
@@ -41,8 +42,11 @@ describe("ShellController", function() {
 	describe("findCommandRunner", function() {
 		var runner;
 
-		before(function() {
-			runner = ctrl.findCommandRunner("ls test/files");
+		before(function(done) {
+			ctrl.findCommandRunner("ls test/files", function(cmdRunner) {
+				runner = cmdRunner;
+				done();
+			});
 		});
 
 		it("return a command runner", function() {
