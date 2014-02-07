@@ -1,64 +1,50 @@
 (function(global, exports) {
-	var EventEmitter = global.EventEmitter,
-		view = exports.shellView = {
-			events: new EventEmitter(),
-			write: function(text) {
-				//var count = 0;
-				//console.log("write view:", text.replace(/\<br\>/g,function(){count++;return "<br>"}));
-				//console.log("total br:"+count)
-				$("#stdout").append(text);
-			}
-		},
+    var term = new Terminal({
+        cols: 120,
+        rows: 40,
+        useStyle: true,
+        screenKeys: true
+    }),
+        view = exports.shellView = {
+            events: new EventEmitter(),
+            write: function(text) {
+               
+                term.write(text);
+            }
+        },
 
-		$ = global.$,
-		ShellController = require("../lib/shell-controller"),
-		controller = new ShellController(view),
-
-		stdin = $("#stdin"),
-		stdout = $("#stdout");
-
-
-	stdin
-		.keyup(function(e) {
-			if (e.keyCode == 13) {
-				var command = stdin.text();
-				view.write(command + "<br>");
-				stdin.html("");
+        $ = global.$,
+        ShellController = require("../lib/shell-controller"),
+        buffer = [],
+        controller = new ShellController(view);
 
 
-				if (command.trim() !== "") {
-					stdin.removeAttr("contenteditable");
-
-					controller.events.on("commandExecuted", function() {
-						stdin.attr("contenteditable", "");
-						stdout.removeAttr("contenteditable");
-						stdout.off("keyup");
-						stdin.focus();
-					});
-
-					controller.events.on("inputRequested",function(){
-						stdout.attr("contenteditable", "");
-						stdout.keyup(function(e) {
-							controller.sendInput(String.fromCharCode(e.keyCode));
-						});
-						stdout.focus();
-					})
-
-					view.events.emit("command", command);
-				}
+    term.on('data', function(data) {
+        if (controller.currentRunner) {
+            return controller.currentRunner.sendInput(data);
+        }
+        
+        buffer.push(data);
+        term.write(data);
+    });
 
 
-			}
-		})
+    term.on('keydown', function(ev) {
+        if (!controller.currentRunner && ev.keyCode === 13) {
+            var command = buffer.join("");
+            buffer = [];
+            if (command.trim() !== "") {
+                view.events.emit("command", command);
+            }
+        }
+    });
 
-	.blur(function(e) {
-		process.nextTick(function() {
-			stdin.focus();
-		});
+    term.on('title', function(title) {
+        document.title = title;
+    });
 
-		e.preventDefault();
-	});
+    term.open($("#stdout")[0]);
 
-
-
+    term.write('\x1b[31mWelcome to term.js!\x1b[m\r\n');
+   
 })(window, window);

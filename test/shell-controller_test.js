@@ -1,4 +1,4 @@
-"use strict";
+/*"use strict";
 
 var expect = require("expect.js"),
 	ShellController = require("../lib/shell-controller"),
@@ -54,4 +54,4 @@ describe("ShellController", function() {
 			expect(runner.run).to.be.a("function");
 		});
 	});
-});
+});*/

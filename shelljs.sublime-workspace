@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"Key",
+				"Keys"
+			],
+			[
+				"nume",
+				"numericKeypadKeyCodes"
+			],
+			[
+				"non",
+				"nonPrintableKeyCodes"
+			],
+			[
+				"html",
+				"htmlEndLine"
+			],
+			[
+				"buffer",
+				"bufferPosition"
+			],
+			[
+				"buff",
+				"bufferPosition"
+			],
+			[
+				"cha",
+				"character"
+			],
+			[
+				"bufer",
+				"bufferPosition"
+			],
+			[
+				"move",
+				"moveCaret"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
 				"charc",
 				"charcode"
 			],
@@ -474,81 +514,25 @@
 			[
 				"Fs",
 				"FSManager"
-			],
-			[
-				"save",
-				"saveStream"
-			],
-			[
-				"possi",
-				"possibleCollider"
-			],
-			[
-				"colli",
-				"colliders"
-			],
-			[
-				"rout",
-				"routeParams"
-			],
-			[
-				"fo",
-				"font-size"
-			],
-			[
-				"off",
-				"offlineHandler"
-			],
-			[
-				"codie",
-				"codiceSistema"
-			],
-			[
-				"co",
-				"continuousChecking"
-			],
-			[
-				"tim",
-				"timeStamp"
-			],
-			[
-				"c",
-				"checkAlarms"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "lib/external-command-runner.js",
+			"file": "/media/parroit/Elements/src/stdelm/lib/stdelm.js",
 			"settings":
 			{
-				"buffer_size": 870,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/console-stdin.js",
-			"settings":
-			{
-				"buffer_size": 292,
+				"buffer_size": 13311,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "lib/shell-controller.js",
+			"file": "/media/parroit/Elements/src/stdelm/.gitignore",
 			"settings":
 			{
-				"buffer_size": 1594,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "ui/index.js",
-			"settings":
-			{
-				"buffer_size": 1359,
-				"line_ending": "Windows"
+				"buffer_size": 46,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -655,10 +639,21 @@
 	},
 	"file_history":
 	[
+		"/media/parroit/Elements/src/stdelm/test/work.html",
+		"/media/parroit/Elements/src/stdelm/bower.json",
+		"/media/parroit/Elements/src/shell-js/bower_components/eventEmitter/bower.json",
+		"/media/parroit/Elements/src/shell-js/bower.json",
+		"/media/parroit/Elements/src/stdelm/test/index.html",
+		"/media/parroit/Elements/src/stdelm/.gitignore",
+		"/media/parroit/Elements/src/stdelm/lib/stdelm.js",
+		"/media/parroit/Elements/src/stdelm/test/stdelm_test.js",
+		"/media/parroit/Elements/src/shell-js/lib/external-command-runner.js",
+		"/media/parroit/Elements/src/shell-js/lib/console-stdin.js",
+		"/media/parroit/Elements/src/shell-js/lib/shell-controller.js",
 		"/media/parroit/Elements/src/shell-js/ui/index.js",
+		"/home/parroit/Scrivania/src/app-bp/npm-debug.log",
 		"/media/parroit/Elements/src/shell-js/lib/ansi2html.js",
 		"/media/parroit/Elements/src/shell-js/test/shell-controller_test.js",
-		"/media/parroit/Elements/src/shell-js/lib/shell-controller.js",
 		"/media/parroit/Elements/src/shell-js/lib/command-parser.js",
 		"/media/parroit/Elements/src/shell-js/node_modules/grunt/node_modules/colors/colors.js",
 		"/media/parroit/Elements/src/shell-js/node_modules/grunt/node_modules/colors/ReadMe.md",
@@ -771,18 +766,7 @@
 		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/synoptic.js",
 		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/mainSynopticTab.js",
 		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/highcharts.src.js",
-		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/search_show_detailed_info.js",
-		"/C/selex/SSIMobileFase1/js/app.js",
-		"/C/Documents and Settings/parroit/Desktop/Sublime Text Build 3047/Data/Packages/Grunt/SublimeGrunt.sublime-settings",
-		"/C/src/folderify/Gruntfile.js",
-		"/C/Documents and Settings/parroit/Desktop/Sublime Text Build 3047/Data/Installed Packages/JSHint.sublime-package",
-		"/C/selex/SSIMobileFase1/storico-allarmi.html",
-		"/C/selex/SSIMobileFase1/index-frame.html",
-		"/C/Documents and Settings/parroit/Desktop/canc allarme",
-		"/C/Documents and Settings/parroit/Desktop/nuovo allarme",
-		"/C/selex/SSIMobileFase1/js/StoricoAllarmiView.js",
-		"/C/Documents and Settings/parroit/Desktop/wireless_admin_user.txt",
-		"/C/src/ngoose/lib/ngoose.js"
+		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/search_show_detailed_info.js"
 	],
 	"find":
 	{
@@ -849,6 +833,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DOM_VK_TAB",
+			"Keys.",
+			"KeyboardEvent.",
+			"KeyEvent.",
+			": true, //",
+			"KeyEvent.",
+			"KeyEvent",
+			"getChar",
+			"e.charCode",
 			"'",
 			"console.",
 			"'",
@@ -967,16 +960,7 @@
 			"416px",
 			"x = null;",
 			"delete x.onreadystatechange;",
-			"renderLineaDetails",
-			"col10",
-			"28px",
-			"ul.mac",
-			"ul.max",
-			",",
-			"32px",
-			"Fowler",
-			"moduleFowler",
-			"a class=\"btn\""
+			"renderLineaDetails"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -984,6 +968,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Keys.",
+			"KeyboardEvent.",
+			", //",
+			",",
 			"%20",
 			"+",
 			"\\t",
@@ -1065,120 +1053,62 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lib/external-command-runner.js",
+					"file": "/media/parroit/Elements/src/stdelm/lib/stdelm.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 870,
+						"buffer_size": 13311,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								386,
-								386
+								10722,
+								10722
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lib/console-stdin.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								252,
-								252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "lib/shell-controller.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1594,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1117,
-								1117
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 2452.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "ui/index.js",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "/media/parroit/Elements/src/stdelm/.gitignore",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1359,
+						"buffer_size": 46,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1127,
-								1127
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 51.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1229,7 +1159,7 @@
 	"project": "shelljs.sublime-project",
 	"replace":
 	{
-		"height": 90.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1247,7 +1177,7 @@
 		[
 			[
 				"",
-				"C:\\selex\\rho-mobile\\ssi-fase2\\ssi-mobile.sublime-project"
+				"/media/parroit/Elements/src/billy/server/billy.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1267,7 +1197,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 208.0,
+	"side_bar_width": 304.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
