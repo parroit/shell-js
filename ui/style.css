@@ -1,25 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
-
+ html {
+    background: black;
+}
 body {
-	background: #333;
-	font-family: 'Inconsolata', sans-serif;
-	font-size: 14pt;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	padding: 5px;
-	margin: 0;
+    font-family:'Inconsolata', sans-serif;
+    font-size: 16pt;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 5px;
+    margin: 0;
 }
 
-#stdin:focus {
-	outline: none;
-	color: #eee;
+.terminal-cursor {
+    text-decoration: underline;
+    background: black;
+    color: white;
 }
 
-#stdin,#stdout {
-	color: #eee;
-}
-#stdin,#stdout {
-	width: 120em; 
-	padding: 0;
-	margin: 0;
+.terminal {
+    float: left;
 }
