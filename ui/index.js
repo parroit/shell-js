@@ -20,8 +20,8 @@
 
 
     term.on('data', function(data) {
-        if (controller.currentRunner) {
-            return controller.currentRunner.sendInput(data);
+        if (controller.currentProcess) {
+            return controller.currentProcess.write(data);
         }
         
         buffer.push(data);
@@ -30,7 +30,7 @@
 
 
     term.on('keydown', function(ev) {
-        if (!controller.currentRunner && ev.keyCode === 13) {
+        if (!controller.currentProcess && ev.keyCode === 13) {
             var command = buffer.join("");
             buffer = [];
             if (command.trim() !== "") {
