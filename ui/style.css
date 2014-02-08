@@ -5,8 +5,8 @@
 body {
     font-family:'Inconsolata', sans-serif;
     font-size: 16pt;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /*overflow-x: hidden;
+    overflow-y: scroll;*/
     padding: 5px;
     margin: 0;
 }
