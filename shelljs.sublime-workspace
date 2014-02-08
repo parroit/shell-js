@@ -520,19 +520,11 @@
 	"buffers":
 	[
 		{
-			"file": "/media/parroit/Elements/src/stdelm/lib/stdelm.js",
+			"file": "lib/shell-controller.js",
 			"settings":
 			{
-				"buffer_size": 13311,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/media/parroit/Elements/src/stdelm/.gitignore",
-			"settings":
-			{
-				"buffer_size": 46,
-				"line_ending": "Unix"
+				"buffer_size": 1081,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -639,25 +631,30 @@
 	},
 	"file_history":
 	[
+		"/media/parroit/Elements/src/shell-js/test/box/.gitignore",
+		"/media/parroit/Elements/src/shell-js/lib/external-command-runner.js",
+		"/media/parroit/Elements/src/shell-js/ui/index.js",
+		"/media/parroit/Elements/src/shell-js/test/external-command-runner_test.js",
+		"/media/parroit/Elements/src/shell-js/test/shell-controller_test.js",
+		"/media/parroit/Elements/src/shell-js/lib/ansi2html.js",
+		"/media/parroit/Elements/src/shell-js/bower_components/term.js/example/index.js",
+		"/media/parroit/Elements/src/shell-js/node_modules/pty.js-dl/build/binding.Makefile",
+		"/media/parroit/Elements/src/shell-js/ui/index.html",
+		"/media/parroit/Elements/src/shell-js/bower_components/term.js/src/term.js",
+		"/media/parroit/Elements/src/stdelm/lib/stdelm.js",
 		"/media/parroit/Elements/src/stdelm/test/work.html",
 		"/media/parroit/Elements/src/stdelm/bower.json",
 		"/media/parroit/Elements/src/shell-js/bower_components/eventEmitter/bower.json",
 		"/media/parroit/Elements/src/shell-js/bower.json",
 		"/media/parroit/Elements/src/stdelm/test/index.html",
 		"/media/parroit/Elements/src/stdelm/.gitignore",
-		"/media/parroit/Elements/src/stdelm/lib/stdelm.js",
 		"/media/parroit/Elements/src/stdelm/test/stdelm_test.js",
-		"/media/parroit/Elements/src/shell-js/lib/external-command-runner.js",
 		"/media/parroit/Elements/src/shell-js/lib/console-stdin.js",
 		"/media/parroit/Elements/src/shell-js/lib/shell-controller.js",
-		"/media/parroit/Elements/src/shell-js/ui/index.js",
 		"/home/parroit/Scrivania/src/app-bp/npm-debug.log",
-		"/media/parroit/Elements/src/shell-js/lib/ansi2html.js",
-		"/media/parroit/Elements/src/shell-js/test/shell-controller_test.js",
 		"/media/parroit/Elements/src/shell-js/lib/command-parser.js",
 		"/media/parroit/Elements/src/shell-js/node_modules/grunt/node_modules/colors/colors.js",
 		"/media/parroit/Elements/src/shell-js/node_modules/grunt/node_modules/colors/ReadMe.md",
-		"/media/parroit/Elements/src/shell-js/ui/index.html",
 		"/media/parroit/Elements/src/shell-js/test/command-parser_test.js",
 		"/media/parroit/Elements/src/shell-js/.gitignore",
 		"/home/parroit/Scrivania/index.html",
@@ -761,12 +758,7 @@
 		"/C/selex/SSIMobileFase1/js/ShowAllarmeView.js",
 		"/C/selex/ssimobilefase1/js/IndexView.js",
 		"/C/selex/SSIMobileFase1/index.html",
-		"/C/selex/SSIMobileFase1/css/style.css",
-		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/classes/columnChart.js",
-		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/synoptic.js",
-		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/mainSynopticTab.js",
-		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/highcharts.src.js",
-		"/C/selex/jboss/server/default/deploy/HMCSMonitor.war/js/search_show_detailed_info.js"
+		"/C/selex/SSIMobileFase1/css/style.css"
 	],
 	"find":
 	{
@@ -833,6 +825,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"'),\n",
+			"js'),",
+			"'",
+			"emit(",
 			"DOM_VK_TAB",
 			"Keys.",
 			"KeyboardEvent.",
@@ -955,12 +952,7 @@
 			"date-prev",
 			".header",
 			"row",
-			".hea",
-			".col-(.)",
-			"416px",
-			"x = null;",
-			"delete x.onreadystatechange;",
-			"renderLineaDetails"
+			".hea"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1058,60 +1050,31 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/media/parroit/Elements/src/stdelm/lib/stdelm.js",
+					"file": "lib/shell-controller.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13311,
+						"buffer_size": 1081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10722,
-								10722
+								778,
+								778
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2452.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/media/parroit/Elements/src/stdelm/.gitignore",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 46,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1177,7 +1140,7 @@
 		[
 			[
 				"",
-				"/media/parroit/Elements/src/billy/server/billy.sublime-project"
+				"/media/parroit/Elements/src/shell-js/shelljs.sublime-project"
 			]
 		],
 		"width": 380.0
