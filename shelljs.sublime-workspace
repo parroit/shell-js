@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"cu",
+				"currentLine"
+			],
+			[
+				"get",
+				"getTermSize"
+			],
+			[
+				"on",
+				"onProcessData"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
 				"Key",
 				"Keys"
 			],
@@ -296,20 +312,12 @@
 				"newTimeStamp"
 			],
 			[
-				"call",
-				"callHandlers"
-			],
-			[
 				"serv",
 				"serviceReaded"
 			],
 			[
 				"forma",
 				"formatSpec"
-			],
-			[
-				"get",
-				"getVariable"
 			],
 			[
 				"has",
@@ -452,10 +460,6 @@
 				"plantTags"
 			],
 			[
-				"cu",
-				"currentPost"
-			],
-			[
 				"time",
 				"timeRange"
 			],
@@ -488,10 +492,6 @@
 				"scriptContent"
 			],
 			[
-				"on",
-				"onPackageInstalled"
-			],
-			[
 				"root",
 				"rootPath"
 			],
@@ -520,11 +520,27 @@
 	"buffers":
 	[
 		{
-			"file": "lib/shell-controller.js",
+			"file": "lib/shell-process.js",
 			"settings":
 			{
-				"buffer_size": 1081,
+				"buffer_size": 876,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/shell-view.js",
+			"settings":
+			{
+				"buffer_size": 1785,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bower_components/term.js/src/term.js",
+			"settings":
+			{
+				"buffer_size": 148533,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -631,16 +647,23 @@
 	},
 	"file_history":
 	[
+		"/media/parroit/Elements/src/shell-js/lib/os-process.js",
+		"/media/parroit/Elements/src/shell-js/lib/shell-view.js",
+		"/media/parroit/Elements/src/shell-js/ui/index.html",
+		"/media/parroit/Elements/src/shell-js/ui/style.css",
+		"/media/parroit/Elements/src/shell-js/bower_components/term.js/src/term.js",
+		"/media/parroit/Elements/src/shell-js/lib/shell-process.js",
+		"/media/parroit/Elements/src/shell-js/lib/shell-controller.js",
+		"/media/parroit/Elements/src/shell-js/lib/process-builder.js",
+		"/media/parroit/Elements/src/shell-js/test/box/.travis.yml",
+		"/media/parroit/Elements/src/shell-js/ui/index.js",
 		"/media/parroit/Elements/src/shell-js/test/box/.gitignore",
 		"/media/parroit/Elements/src/shell-js/lib/external-command-runner.js",
-		"/media/parroit/Elements/src/shell-js/ui/index.js",
 		"/media/parroit/Elements/src/shell-js/test/external-command-runner_test.js",
 		"/media/parroit/Elements/src/shell-js/test/shell-controller_test.js",
 		"/media/parroit/Elements/src/shell-js/lib/ansi2html.js",
 		"/media/parroit/Elements/src/shell-js/bower_components/term.js/example/index.js",
 		"/media/parroit/Elements/src/shell-js/node_modules/pty.js-dl/build/binding.Makefile",
-		"/media/parroit/Elements/src/shell-js/ui/index.html",
-		"/media/parroit/Elements/src/shell-js/bower_components/term.js/src/term.js",
 		"/media/parroit/Elements/src/stdelm/lib/stdelm.js",
 		"/media/parroit/Elements/src/stdelm/test/work.html",
 		"/media/parroit/Elements/src/stdelm/bower.json",
@@ -650,7 +673,6 @@
 		"/media/parroit/Elements/src/stdelm/.gitignore",
 		"/media/parroit/Elements/src/stdelm/test/stdelm_test.js",
 		"/media/parroit/Elements/src/shell-js/lib/console-stdin.js",
-		"/media/parroit/Elements/src/shell-js/lib/shell-controller.js",
 		"/home/parroit/Scrivania/src/app-bp/npm-debug.log",
 		"/media/parroit/Elements/src/shell-js/lib/command-parser.js",
 		"/media/parroit/Elements/src/shell-js/node_modules/grunt/node_modules/colors/colors.js",
@@ -752,13 +774,7 @@
 		"/C/selex/SSIMobileFase1/proxy.js",
 		"/C/Documents and Settings/parroit/Desktop/todo-ssi.txt",
 		"/C/selex/SSIMobileFase1/js/scramble.js",
-		"/C/selex/SSIMobileFase1/docs/istruzioni collegamento intermec.txt",
-		"/C/selex/SSIMobileFase1/docs/configurazione.txt",
-		"/C/selex/SSIMobileFase1/start.html",
-		"/C/selex/SSIMobileFase1/js/ShowAllarmeView.js",
-		"/C/selex/ssimobilefase1/js/IndexView.js",
-		"/C/selex/SSIMobileFase1/index.html",
-		"/C/selex/SSIMobileFase1/css/style.css"
+		"/C/selex/SSIMobileFase1/docs/istruzioni collegamento intermec.txt"
 	],
 	"find":
 	{
@@ -825,6 +841,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"insertChars",
+			"escape",
+			"terminal-cursor",
+			"cursor",
+			"ch",
+			"cursor",
+			"   \n",
+			"insertSt",
+			"this.colors",
+			"\\n'",
+			"+ '",
+			"color",
+			"    + '  ",
+			"+ '",
+			"insertS",
+			"this.buffer",
+			"OsProcess",
+			"events",
+			"currentRunner",
+			"options",
+			"findCommandProcess",
+			"runner",
+			"ExternalProcess",
+			"ExternalCommandRunner",
 			"'",
 			"'),\n",
 			"js'),",
@@ -928,38 +968,15 @@
 			"Err",
 			"err",
 			"Err",
-			"err",
-			"hide",
-			"hidd",
-			"pollIntervalSeconds: 30",
-			"pollIntervalSeconds: 10",
-			"pollIntervalSeconds",
-			"Fowler",
-			"throws",
-			"callAlarmList",
-			"readAlarmList",
-			"callAlarmList",
-			"pageSize",
-			"fromTimer",
-			"timeFilters",
-			"readAlarmList",
-			"page",
-			"dayPrev_onclick",
-			"td",
-			"tr",
-			"table",
-			"search-btn",
-			"date-prev",
-			".header",
-			"row",
-			".hea"
+			"err"
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": false,
+		"preserve_case": true,
 		"regex": false,
 		"replace_history":
 		[
+			"process",
 			"Keys.",
 			"KeyboardEvent.",
 			", //",
@@ -1045,36 +1062,97 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lib/shell-controller.js",
+					"file": "lib/shell-process.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1081,
+						"buffer_size": 876,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								778,
-								778
+								444,
+								444
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 51.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/shell-view.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1500,
+								1500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bower_components/term.js/src/term.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 148533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6540,
+								6540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4009.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1160,7 +1238,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 304.0,
+	"side_bar_width": 302.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
